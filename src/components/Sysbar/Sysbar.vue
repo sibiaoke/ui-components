@@ -1,0 +1,114 @@
+<template>
+  <el-header class="sysbar">
+    <div class="item">
+      <div class="logo">
+        <slot name="logo">
+          <div class="fake-logo"></div>
+        </slot>
+      </div>
+      <div class="product">
+        <slot name="product">{{product}}</slot>
+      </div>
+    </div>
+    <div class="item">
+      <slot name="welcome"></slot>
+      <slot></slot>
+      <ActionItem class="username">
+        <svg-icon icon-class="profile"/>
+        <slot name="username">Username</slot>
+      </ActionItem>
+    </div>
+  </el-header>
+</template>
+
+<script>
+import ActionItem from './ActionItem'
+export default {
+  components: { ActionItem },
+  props: {
+    product: {
+      type: String,
+      default: 'Product Name'
+    }
+  }
+}
+</script>
+
+<style scoped lang="scss">
+@import '~@sibiaoke/ui-theme/src/mixins/themes';
+
+$sys-theme: (
+  light: (
+    color-text: $light-color-text-primary,
+    color-bg: $light-fill-base
+  ),
+  dark: (
+    color-text: $dark-color-text-primary,
+    color-bg: $dark-system-l0-color
+  )
+);
+
+.fake-logo {
+  width: 30px;
+  height: 21px;
+  background: #5b6270;
+  border-radius: 3px;
+}
+
+.sysbar {
+  display: flex;
+  justify-content: space-between;
+  user-select: none;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 16px;
+  font-size: 14px;
+
+  @include themify($sys-theme) {
+    color: themed('color-text');
+    background: themed('color-bg');
+  }
+
+  .item {
+    display: flex;
+    align-items: center;
+    align-self: center;
+  }
+
+  .logo {
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+
+    img {
+      height: 40px !important;
+    }
+  }
+
+  .product {
+    margin-left: 4px;
+    display: none;
+    font-weight: 500;
+  }
+
+  .username {
+    display: none;
+  }
+
+  @media only screen and (min-width: 30em) {
+    .product {
+      display: inline;
+      margin-left: 8px;
+    }
+    .username {
+      display: inline;
+      padding-left: 4px;
+
+      svg {
+        margin-right: 4px;
+      }
+    }
+  }
+}
+</style>

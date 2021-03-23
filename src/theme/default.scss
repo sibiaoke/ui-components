@@ -1,0 +1,31 @@
+// $--font-path: '~@sibiaoke/ui-theme/src/fonts';
+
+// @import '~@sibiaoke/ui-theme/src/index';
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Hilda', 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+
+  .title {
+    font-size: 16px !important;
+  }
+  .el-col {
+    margin-bottom: 24px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  display: inline-block;
+  &.subtitle {
+    opacity: 0.6;
+    font-weight: normal;
+    margin-left: 8px;
+  }
+}

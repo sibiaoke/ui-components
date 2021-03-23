@@ -1,0 +1,102 @@
+
+ /* Hilda Font */
+@font-face {
+  font-family: "Hilda";
+  src: url("~@/assets/fonts/hilda/Hilda-Light.eot");
+  src: local(" Hilda Light"), local("Hilda-Light"),
+    url("~@/assets/fonts/hilda/Hilda-Light.eot?#iefix") format("embedded-opentype"),
+    url("~@/assets/fonts/hilda/Hilda-Light.woff2") format("woff2"),
+    url("~@/assets/fonts/hilda/Hilda-Light.woff") format("woff"),
+    url("~@/assets/fonts/hilda/Hilda-Light.ttf") format("truetype"),
+    url("~@/assets/fonts/hilda/Hilda-Light.svg#Hilda-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hilda";
+  src: url("~@/assets/fonts/hilda/Hilda-Regular.eot");
+  src: local(" Hilda Regular"), local("Hilda-Regular"),
+    url("~@/assets/fonts/hilda/Hilda-Regular.eot?#iefix") format("embedded-opentype"),
+    url("~@/assets/fonts/hilda/Hilda-Regular.woff2") format("woff2"),
+    url("~@/assets/fonts/hilda/Hilda-Regular.woff") format("woff"),
+    url("~@/assets/fonts/hilda/Hilda-Regular.ttf") format("truetype"),
+    url("~@/assets/fonts/hilda/Hilda-Regular.svg#Hilda-Regular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hilda";
+  src: url("~@/assets/fonts/hilda/Hilda-Medium.eot");
+  src: local(" Hilda Medium"), local("Hilda-Medium"),
+    url("~@/assets/fonts/hilda/Hilda-Medium.eot?#iefix") format("embedded-opentype"),
+    url("~@/assets/fonts/hilda/Hilda-Medium.woff2") format("woff2"),
+    url("~@/assets/fonts/hilda/Hilda-Medium.woff") format("woff"),
+    url("~@/assets/fonts/hilda/Hilda-Medium.ttf") format("truetype"),
+    url("~@/assets/fonts/hilda/Hilda-Medium.svg#Hilda-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hilda";
+  src: url("~@/assets/fonts/hilda/Hilda-Bold.eot");
+  src: local(" Hilda Bold"), local("Hilda-Bold"),
+    url("~@/assets/fonts/hilda/Hilda-Bold.eot?#iefix") format("embedded-opentype"),
+    url("~@/assets/fonts/hilda/Hilda-Bold.woff2") format("woff2"),
+    url("~@/assets/fonts/hilda/Hilda-Bold.woff") format("woff"),
+    url("~@/assets/fonts/hilda/Hilda-Bold.ttf") format("truetype"),
+    url("~@/assets/fonts/hilda/Hilda-Bold.svg#Hilda-Bold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+ /*  Hilda Mono Font */
+@font-face {
+  font-family: "Hilda Mono";
+  src: url("~@/assets/fonts/hilda/HildaMono-Light.eot");
+  src: local(" Hilda Mono Light"), local("HildaMono-Light"),
+    url("~@/assets/fonts/hilda/HildaMono-Light.eot?#iefix") format("embedded-opentype"),
+    url("~@/assets/fonts/hilda/HildaMono-Light.woff2") format("woff2"),
+    url("~@/assets/fonts/hilda/HildaMono-Light.woff") format("woff"),
+    url("~@/assets/fonts/hilda/HildaMono-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hilda Mono";
+  src: url("~@/assets/fonts/hilda/HildaMono-Regular.eot");
+  src: local(" Hilda Mono Regular"), local("HildaMono-Regular"),
+    url("~@/assets/fonts/hilda/HildaMono-Regular.eot?#iefix") format("embedded-opentype"),
+    url("~@/assets/fonts/hilda/HildaMono-Regular.woff2") format("woff2"),
+    url("~@/assets/fonts/hilda/HildaMono-Regular.woff") format("woff"),
+    url("~@/assets/fonts/hilda/HildaMono-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hilda Mono";
+  src: url("~@/assets/fonts/hilda/HildaMono-Light.eot");
+  src: local(" Hilda Mono Medium"), local("HildaMono-Medium"),
+    url("~@/assets/fonts/hilda/HildaMono-Medium.eot?#iefix") format("embedded-opentype"),
+    url("~@/assets/fonts/hilda/HildaMono-Medium.woff2") format("woff2"),
+    url("~@/assets/fonts/hilda/HildaMono-Medium.woff") format("woff"),
+    url("~@/assets/fonts/hilda/HildaMono-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hilda Mono";
+  src: url("~@/assets/fonts/hilda/HildaMono-Bold.eot");
+  src: local(" Hilda Mono Bold"), local("HildaMono-Bold"),
+    url("~@/assets/fonts/hilda/HildaMono-Bold.eot?#iefix") format("embedded-opentype"),
+    url("~@/assets/fonts/hilda/HildaMono-Bold.woff2") format("woff2"),
+    url("~@/assets/fonts/hilda/HildaMono-Bold.woff") format("woff"),
+    url("~@/assets/fonts/hilda/HildaMono-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
